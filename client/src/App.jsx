@@ -15,7 +15,7 @@ function App() {
     try {
       setLoading(true);
       const response = await axios.post(
-        "http://localhost:7001/api/analyze",
+        "https://ai-resume-analyzer-yxzl.onrender.com",
         formData
       );
 
